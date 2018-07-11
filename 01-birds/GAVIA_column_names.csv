@@ -1,0 +1,29 @@
+Column Title,Description of Contents
+RecordID,"A unique number for that particular record. Each corresponding individual map also carries this number. This number never changes, even if previous records are deleted. "
+SpeciesID,A unique number for each individual species.
+Order,"The Order to which the species belongs, as per the taxonomy accepted by the IUCN and BirdLife."
+Family,"The Family to which the species belongs, as per the taxonomy accepted by the IUCN and BirdLife."
+Genus,"The genus of that species, as per the taxonomy accepted by the IUCN and BirdLife."
+Species,"The species name of that species, as per the taxonomy accepted by the IUCN and BirdLife."
+Binomial,"The binomial of that species, as per the taxonomy accepted by the IUCN and BirdLife."
+CommonName,"The common name of that species, as per the IUCN and BirdLife."
+CountryName,The name of the country in which that record occurs as per the GADM designations.
+AreaName1,"The first sub-level down from country, e.g. region/state, in which that record occurs, as per GADM designations."
+AreaName2,"The second sub-level down from country, e.g. sub-region/city, in which that record occurs, as per GADM designations."
+LocationDescription,"A specific description of where the record occurs, if it cannot be selected from AreaName 1 or 2."
+Realm,"The biogeographical realm in which that record occurs, as per the Olson et al. (2001) delineations."
+Island,Whether the record occurs on an island or not.
+LandType,"The type of land that the record occurs on, choices being mainland, continental island or oceanic island."
+CPrecord,"Whether the record represents a colonisation pressure (CP) location, i.e. a specific location where the species was introduced for the first time, as opposed to a location to which the species has spread.  "
+IntroducedDate,"The date that the species was first introduced (if known), written exactly as found in the reference, e.g. ‘late 17th century’."
+IntroducedDateGrouped,"The date that the species was first introduced (if known), converted to a number, e.g. ‘late 17th century’ would become 1690. "
+MappingDate,"The date that the map which corresponds to that particular record represents. For example, the introduced date will stay the same for all individual records from that reference, but as the species spreads over time, the mapped date will change to reflect the newly colonised areas. If there are no dates mentioned at all within the reference, then the date that the reference was published is used as the default mapping date."
+ReferenceDate,"Rarely used. If there is no date of introduction recorded, but the reference referred to is a significantly ‘old’ date, then this is recorded so that it is at least an indication of how long the species has been present in that region."
+StatusCat,"The status of the species in that record, e.g. established, died out etc."
+IntroMethod,"How the species was introduced. For example it was released, escaped etc."
+IntroPurpose,"Why the species was introduced. For example it escaped from a zoo, or was released for hunting purposes."
+TaxonomicNotes,Any taxonomic information relevant to that record.
+Notes,"Relevant additional notes relating to the record that cannot be entered by using one of the above fields, e.g. it might specify numbers of birds released, or specific paths of species spread etc."
+RangeMap,"Whether or not the record has a corresponding distribution map. Either Mapped or Not Mapped. If Not Mapped, it means that it will never be mapped, as the data is deemed too broad scale or vague."
+Reference,"Where the information was found, this links to the full list of GAVIA references."
+CompilerInitial,The initials of the person responsible for compiling that record in the database.
